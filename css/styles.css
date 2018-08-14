@@ -1,0 +1,49 @@
+.wrap{
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container{
+    display: inline-block;
+    width: 33%;
+   
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.box{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 30px auto;
+}
+
+.wrap:hover .box{
+    transform: scale(2);
+}
+
+.box1{
+    background: bisque;
+    transition: all 300ms;
+}
+
+.box2{
+    background-color: aqua;
+    transition: all 1s;
+ 
+}
+
+.box3{
+    background-color: coral;
+    transition: all 3s;
+}
+.box4{
+    background-color: crimson;
+    transition: 6s;
+}
